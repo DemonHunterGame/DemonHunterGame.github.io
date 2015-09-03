@@ -1,0 +1,15 @@
+# Site settings
+title: MAGIC RING
+email: nul
+description: > # this means to ignore newlines until "baseurl:"
+  Wecome !! We just want to make a better game
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: nul
+github_username:  nul
+
+# Build settings
+markdown: kramdown
+
+source:      .
+destination: ../demonHunterGame_web/_site
