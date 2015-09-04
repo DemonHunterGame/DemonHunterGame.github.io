@@ -12,10 +12,9 @@ layout: default
     {{ content }}
   </article>
 
-    </div>
-    {% if page.comments %}
+  {% if page.comments %}
        	<!-- Duoshuo Comment BEGIN -->
-  <div class="ds-thread" data-thread-key="{{page.pid}}"></div>
+ 		<div class="ds-thread" data-thread-key="{{page.pid}}"></div>
         <script type="text/javascript">
             var duoshuoQuery = {short_name:'watkin'};
                 (function() {
@@ -32,18 +31,17 @@ layout: default
     {% else %}
         <div id="ds-thread"><hr /><p>评论已关闭</p></div>
     {% endif %}
-
-
 </div>
+
 <center>
 {% if page.previous or page.next %}
-<div id="page_nav">
-    {% if page.previous %}
-    <a href='{{page.previous.url}}'>← Prev</a>
-    {% endif %}
-    {% if page.next %}
-    <a href='{{page.next.url}}'>Next →</a>
-    {% endif %}
-</div>
-{% endif %}
+	<div id="page_nav">
+	    {% if page.previous %}
+	    <a href='{{page.previous.url}}'>← Prev</a>
+	    {% endif %}
+	    {% if page.next %}
+	    <a href='{{page.next.url}}'>Next →</a>
+	    {% endif %}
+	</div>
+	{% endif %}
 </center>
