@@ -12,4 +12,38 @@ layout: default
     {{ content }}
   </article>
 
+    </div>
+    {% if page.comments %}
+       	<!-- Duoshuo Comment BEGIN -->
+  <div class="ds-thread" data-thread-key="{{page.pid}}"></div>
+        <script type="text/javascript">
+            var duoshuoQuery = {short_name:'watkin'};
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = 'http://static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] 
+                    || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+        </script>
+		<!-- Duoshuo Comment END -->
+	    <!-- {% include JB/comments %} -->
+    {% else %}
+        <div id="ds-thread"><hr /><p>评论已关闭</p></div>
+    {% endif %}
+
+
 </div>
+<center>
+{% if page.previous or page.next %}
+<div id="page_nav">
+    {% if page.previous %}
+    <a href='{{page.previous.url}}'>← Prev</a>
+    {% endif %}
+    {% if page.next %}
+    <a href='{{page.next.url}}'>Next →</a>
+    {% endif %}
+</div>
+{% endif %}
+</center>
