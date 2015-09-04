@@ -12,9 +12,9 @@ categories: welcome
 {% tudou XNTc2ODk1NjI0 %}
 {% youku XNTc2ODk1NjI0 500 400 %}
 {% tudou XNTc2ODk1NjI0 500 400 %} -->
-{% youku XMTI4NzM1NTMyOA %}
+<!-- {% youku XMTI4NzM1NTMyOA %} -->
 
-{% youku XNTM2NTc3MzU2 %}
+<!-- {% youku XNTM2NTc3MzU2 %} -->
 
 {% youtube oHg5SJYRHA0 %}
 
