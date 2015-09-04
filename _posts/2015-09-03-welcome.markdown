@@ -6,9 +6,10 @@ categories: welcome
 ---
 
 <center>
+	 <iframe width="560" height="420" src="http://player.youku.com/embed/XMTI4NzM1NTMyOA"> </iframe>
 <body>
 
-{% youtube oHg5SJYRHA0 %}
+<!-- {% youtube oHg5SJYRHA0 %} -->
 </body>
 <br>lalalalalalalala
 </center>
