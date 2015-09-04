@@ -6,9 +6,6 @@ categories: welcome
 ---
 
 <center>
-<body>
-{% youku XMTI4NzM1NTMyOA %} 
-{% youku XNTM2NTc3MzU2 %}
-</body>
+
 <br>lalalalalalalala
 </center>
