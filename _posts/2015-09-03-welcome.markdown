@@ -10,7 +10,7 @@ categories: welcome
 	
 {% youku XMTI4NzM1NTMyOA %}
 
-{% youku XNTM2NTc3MzU2 %}
+<!-- {% youku XNTM2NTc3MzU2 %} -->
 
 {% youtube oHg5SJYRHA0 %}
 
