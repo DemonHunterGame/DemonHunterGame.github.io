@@ -15,14 +15,14 @@ class YouKu < Liquid::Tag
           @height = $3.to_i
       end
     else
-      raise "在\"Youku\"标签中未提供视频ID或提供的ID不合法。 Illgeal ID presented."
+      raise "\"Youku\" Illgeal ID presented."
     end
   end
 
   def render(context)
     # "<iframe height=498 width=510 src="http://player.youku.com/embed/XNTc2ODk1NjI0" frameborder=0 allowfullscreen></iframe>"
     # "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://player.youku.com/embed/#{@id}\" frameborder=0 allowfullscreen></iframe>"
-
+# "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.tudou.com/programs/view/html5embed.action?code=#{@id}\" frameborder=0 allowfullscreen></iframe>"
     "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://player.youku.com/embed/#{@id}?color=white&theme=light\"></iframe>"
   end
 
