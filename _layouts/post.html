@@ -13,7 +13,6 @@ layout: default
   </article>
 
   {% if page.comments %}
-       	<!-- Duoshuo Comment BEGIN -->
  		<div class="ds-thread" data-thread-key="{{page.pid}}"></div>
         <script type="text/javascript">
             var duoshuoQuery = {short_name:'watkin'};
@@ -26,8 +25,6 @@ layout: default
                     || document.getElementsByTagName('body')[0]).appendChild(ds);
                 })();
         </script>
-		<!-- Duoshuo Comment END -->
-	    <!-- {% include JB/comments %} -->
     {% else %}
         <div id="ds-thread"><hr /><p>评论已关闭</p></div>
     {% endif %}
