@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome!"
+title:  "Welcome"
 date:   2015-09-03 18:58:28
-categories: nothing
+categories: welcome
 ---
 
 <!-- {% youku XNTc2ODk1NjI0 500 400 %} -->
