@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Welcome"
+date:   2015-09-03 18:58:28
+categories: welcome
+comments: true
+---
+
+<center>
+	 <iframe width="560" height="420" src="http://player.youku.com/embed/XNTM2NTc3MzU2"> </iframe>
+	 <iframe width="560" height="420" src="http://player.youku.com/embed/XMTI4NzM1NTMyOA"> </iframe>
+	 <!-- <iframe width="560" height="420" src="http://www.youtube.com/embed/oHg5SJYRHA0"> </iframe> -->
+<body>
+</body>
+<br>lalalalalalalala
+</center>
